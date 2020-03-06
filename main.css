@@ -4,13 +4,14 @@ body{
   background-color: black;
   align-content: center;
   width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   justify-content: space-between;
 }
 
 img{
-  position: absolute;
+  position: fixed;
   z-index: -1;
   height: 100%;
   width: 100%;
@@ -22,7 +23,7 @@ header .header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 20px;
+  font-size: 20px ;
   z-index: 1;
   height: 10%;
 }
@@ -33,12 +34,19 @@ header .header h1{
   font-style: italic;
 }
 header .nav{
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-style: italic;
 }
+
 header .header.change{
   display: none;
-
 }
+.button_menu{
+  padding: 5px;
+}
+
 .line_1, .line_2, .line_3 {
   width: 35px;
   height: 5px;
@@ -81,7 +89,7 @@ header .header.change{
   width: 120px;
   border: 3px solid black;
 }
-a ,.hem, .nyheter, .boende, .karta, .bad, .service, .aktiviteter, .om_oss, .filmer{
+.hem, .nyheter, .boende, .karta, .bad, .service, .aktiviteter, .om_oss, .filmer a{
   font-size: 25px;
   margin: 0px;
 }
@@ -137,7 +145,8 @@ a ,.hem, .nyheter, .boende, .karta, .bad, .service, .aktiviteter, .om_oss, .film
   background-color: white;
   position: absolute;
   width: 100%;
-  height: 10%;
+  height: 100%;
+  z-index: -1;
 
 }
 .navbar.change{
@@ -154,17 +163,18 @@ a ,.hem, .nyheter, .boende, .karta, .bad, .service, .aktiviteter, .om_oss, .film
 
 .info{
   width: 100%;
-  position: absolute;
-  top: 15%;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 1 2 auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .info.change{
+  top: 40%;
   position: absolute;
-  top: 45%;
 }
 
 .panel_1{
@@ -172,9 +182,49 @@ a ,.hem, .nyheter, .boende, .karta, .bad, .service, .aktiviteter, .om_oss, .film
   width: 65%;
   border: 2px solid black;
   background-color: white;
+
 }
+.bild_1{
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.bild_1 img{
+  z-index: 1;
+  width: auto;
+  position: relative;
+  margin-bottom: 20px;
+}
+
 .facts_p1{
   position: relative;
-  width: 80%;
-  left: 10%;
+  width: 75%;
+
+}
+.text{
+  width: 90%;
+}
+footer{
+  bottom: 0px;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  z-index: 1;
+  height: 5%;
+  width: 100%
+}
+.footerbar{
+
+  opacity: 0.5;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.footer{
+  z-index: 1;
 }
