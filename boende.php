@@ -2,7 +2,7 @@
 <html lang="sv">
   <head>
     <meta charset="utf-8"/>
-    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="boende.css" rel="stylesheet" type="text/css">
     <title> Hanatorps Camping </title>
     <script>
     function menu(){
@@ -21,6 +21,7 @@
   </head>
   <header>
     <div class="header" id="header">
+      <div class="navbar" id="navbar">  </div>
       <h1> Hanatorps Camping </h1>
       <div class="nav" onclick="menu()">
         <div id="hamburger" class="button_menu">
@@ -80,15 +81,108 @@
         </div>
       </div>
     </div>
-    <div class="navbar" id="navbar">  </div>
+
 
     <div class="info" id="info">
       <div class="panel_1">
+        <div class="bild">
+          <img id="Bobild1" src=./BilderHanatorp/Boende/th_Bobild1.jpg alt=""> </img>
+          <img id="Bobild2" src=./BilderHanatorp/Boende/th_Bobild2.jpg alt=""> </img>
+          <img id="Bobild3" src=./BilderHanatorp/Boende/th_Bobild3.png alt=""> </img>
+          <img id="Bobild4" src=./BilderHanatorp/Boende/th_Bobild4.jpg alt=""> </img>
+        </div>
         <div class="facts_p1">
-          <div><h3> Skriv o sätt in de som passar till den kategorin du arbetar med. Vi får fixa detta snabbt :P </h3></div>
+          <div class="text">
+            <h3>Boende</h3>
+            <p>Hanatorps camping är en lugn familjecamping med trevlig atmosfär. Här hittar du platser med underbar sjöutsikt och alltid nära servicehus. Platserna är stora, över 100 kvm, väl dränerade och med asfalterade parkeringar. Alla platserna är rustade med 16 A el och nya moderna jordfelsbrytare. Här ansluter du säkert med eu-koppling. Vi har också komforttomter med vatten, avlopp och centralantenn.</p>
+            <h4>Priser campingtomter</h4>
+            <table>
+              <tbody>
+                <tr>
+                  <td class="Priser1">
+                    Plats utan el. 200 kr / natt
+                    <br>
+                    Smala platser. 245 kr / natt
+                    <br>
+                    Trivselbyn. 275 kr / natt
+                    <br>
+                    Strandtomt. 375 kr / natt
+                    <br>
+                    Hos oss bor du 7 nätter och betalar för 6.
+                   </td>
+                 </tr>
+               </tbody>
+             </table>
+             <h4>Priser Stugor</h4>
+             <table>
+               <tbody>
+                 <tr>
+                   <td class="Priser2">
+                     Sjöstugor 2 bädds med trinettkök 550 kr / natt
+                     <br>
+                     Sommarbyn 4 bädds med trinettkök 550 kr / natt
+                     <br>
+                     Sommarbyn 3 bädds med trinettkök dusch WC 750 kr / natt
+                     <br>
+                     Lönneberga 4 bädds med kök dusch WC 950 kr / natt
+                     <br>
+                     Städning av stugan kan beställas och kostar 250.- pr påbörjad timme.
+                     <br>
+                     Vi kontrollerar stugorna vid avresa.
+                     <br>
+                     Hos oss bor du 7 nätter och betalar för 6.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h4>Info</h4>
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="Info1">
+                      Vi har även ett antal platser för säsongs uppställning.
+                      <br>
+                      Vissa av dessa har el , vatten och avlopp.
+                      <br>
+                      Säsongen är från Påsk , skärtorsdag till 30 september.
+                      <br>
+                      Kontakta oss för prisuppgifter.
+                     </td>
+                   </tr>
+                 </tbody>
+               </table>
+               <table>
+                 <tbody>
+                   <tr>
+                     <td class="Kontakt">
+                       <br>
+                       Hanatorps camping
+                       <br>
+                       Tel: +46 (0)703807048
+                       <br>
+                       Kontakt:
+                       <a href="mailto:camping@hanatorp.se" class="linklink">Hanatorp Camping</a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              <p></p>
+          </div>
         </div>
       </div>
-
     </div>
-
   </body>
+
+  <footer>
+    <div class="footer"> <table>
+      <tbody>
+        <tr>
+          <td class="Kontakt">
+            Hanatorps camping;   Öresjövägen 26;   511 31 Örby;   Tel: +46 (0)703807048;   Kontakt:
+            <a href="mailto:camping@hanatorp.se" class="linklink">Hanatorp Camping</a>
+           </td>
+         </tr>
+       </tbody>
+     </table> </div>
+    <div class="footerbar"> </div>
+  </footer>

@@ -2,7 +2,7 @@
 <html lang="sv">
   <head>
     <meta charset="utf-8"/>
-    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="bad.css" rel="stylesheet" type="text/css">
     <title> Hanatorps Camping </title>
     <script>
     function menu(){
@@ -85,10 +85,33 @@
     <div class="info" id="info">
       <div class="panel_1">
         <div class="facts_p1">
-          <div><h3> Skriv o sätt in de som passar till den kategorin du arbetar med. Vi får fixa detta snabbt :P </h3></div>
+          <div class="text">
+            <div><h2> Bad </h2>
+               <p>Hanatorp - Örby ligger alldeles intill Östra Öresjön. Badstranden är långrund och blir fort uppvärmd. Redan i mitten av maj brukar det badas vid Hanatorps strand.</p>
+
+               <p>För den som vill ge sig lite längre ut på sjön har vi en roddbåt , kanoter och paddleboards till uthyrning .</p>
+            </div>
+          </div>
+        </div>
+        <div class="bild">
+          <img id="Badbild1" src=./BilderHanatorp/Bad/th_BadBild1.png alt=""> </img>
+          <img id="Badbild2" src=./BilderHanatorp/Bad/th_BadBild2.png alt=""> </img>
+          <img id="Badbild3" src=./BilderHanatorp/Bad/th_BadBild3.png alt=""> </img>
         </div>
       </div>
-
     </div>
-
   </body>
+
+  <footer>
+    <div class="footer"> <table>
+      <tbody>
+        <tr>
+          <td class="Kontakt">
+            Hanatorps camping;   Öresjövägen 26;   511 31 Örby;   Tel: +46 (0)703807048;   Kontakt:
+            <a href="mailto:camping@hanatorp.se" class="linklink">Hanatorp Camping</a>
+           </td>
+         </tr>
+       </tbody>
+     </table> </div>
+    <div class="footerbar"> </div>
+  </footer>
