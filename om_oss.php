@@ -2,7 +2,7 @@
 <html lang="sv">
   <head>
     <meta charset="utf-8"/>
-    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="om-oss.css" rel="stylesheet" type="text/css">
     <title> Hanatorps Camping </title>
     <script>
     function menu(){
@@ -21,6 +21,7 @@
   </head>
   <header>
     <div class="header" id="header">
+      <div class="navbar" id="navbar">  </div>
       <h1> Hanatorps Camping </h1>
       <div class="nav" onclick="menu()">
         <div id="hamburger" class="button_menu">
@@ -80,15 +81,29 @@
         </div>
       </div>
     </div>
-    <div class="navbar" id="navbar">  </div>
 
-    <div class="info" id="info">
-      <div class="panel_1">
+
+  <div class="info" id="info">
+    <div class="panel_1">
+      <div class="bild">
+        <img src="./bilder/HanatorpBild5 "> </img>
+      </div>
         <div class="facts_p1">
-          <div><h3> Skriv o sätt in de som passar till den kategorin du arbetar med. Vi får fixa detta snabbt :P </h3></div>
+          <div class="text" >
+            <h2> Om oss </h2>
+            <p> Hanatorps camping är en lugn familjecamping med inlandsatmosfär som ligger vid Öresjöns strand.
+                Här försvinner stressen som sand mellan tårna. Kom och upplev och njut av naturen vid en av västsveriges finaste stränder.
+            </p>
+            <p> Vi är stolta över vår vackra natur och campingen omfamnas av ett strövområde med leder av olika längd. Ett paradis för hundägare. På våren kan man njuta av ett rikt fågelliv, fiske,
+                tidiga bad och på sensommaren väntar blåbärseldorado och de goda svamparna på att bli plockade i skogarna runt omkring oss.
+            </p>
+            <p> Öresjön utmanar också med sitt fina fiske såväl sommar som vinter. Vi hyr ut båtar och kanoter för korta och långa turer på sjön. </p>
+          </div>
         </div>
       </div>
-
     </div>
-
   </body>
+  <footer>
+    <div class="footer" > Hej </div>
+    <div class="footerbar">  </div>
+  </footer>

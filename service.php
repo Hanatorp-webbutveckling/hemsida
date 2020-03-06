@@ -2,7 +2,7 @@
 <html lang="sv">
   <head>
     <meta charset="utf-8"/>
-    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="service.css" rel="stylesheet" type="text/css">
     <title> Hanatorps Camping </title>
     <script>
     function menu(){
@@ -21,6 +21,7 @@
   </head>
   <header>
     <div class="header" id="header">
+      <div class="navbar" id="navbar">  </div>
       <h1> Hanatorps Camping </h1>
       <div class="nav" onclick="menu()">
         <div id="hamburger" class="button_menu">
@@ -80,17 +81,32 @@
         </div>
       </div>
     </div>
-    <div class="navbar" id="navbar">  </div>
 
     <div class="info" id="info">
       <div class="panel_1">
+        <div class="bild">
+          <img src="./bilder/kanot"> </img>
+        </div>
         <div class="facts_p1">
-          <div><h3> Skriv o sätt in de som passar till den kategorin du arbetar med. Vi får fixa detta snabbt :P
-                    Detta är Service. Om jag fortsätter här, fuckas hela då?? nää va bra.
-          </h3></div>
+          <div class="text">
+            <h2> Service </h2>
+            <p> Varje morgon under högsäsongen kan du köpa färskt bröd på Hanatorp.
+                I Hanatorps reception hjälper dig gärna med förslag och tips om vad som är på gång just nu.
+                På Hanatorp finns också tillgång till Internet i gästrummet och restaurangen.
+            </p>
+            <p> Från campingens reception kan du hyra kanoter - kanadensare, mindre båt och SUP Boards.
+                Flytvästar ingår alltid. Vi säljer även fiskekort.
+            </p>
+            <p> På Hanatorp finner du även boulebana, lekplats och minigolf.
+                Fisket är berömt och under stark tillväxt är gösen.
+                Men det finns även en liten stam av laxöring. Det pågår återinplanteringar av laxöring i Öresjön.
+            </p>
+          </div>
         </div>
       </div>
-
     </div>
-
   </body>
+  <footer>
+    <div class="footer" > Hej </div>
+    <div class="footerbar">  </div>
+  </footer>

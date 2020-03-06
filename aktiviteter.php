@@ -2,7 +2,7 @@
 <html lang="sv">
   <head>
     <meta charset="utf-8"/>
-    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="aktiviteter.css" rel="stylesheet" type="text/css">
     <title> Hanatorps Camping </title>
     <script>
     function menu(){
@@ -21,6 +21,7 @@
   </head>
   <header>
     <div class="header" id="header">
+      <div class="navbar" id="navbar">  </div>
       <h1> Hanatorps Camping </h1>
       <div class="nav" onclick="menu()">
         <div id="hamburger" class="button_menu">
@@ -80,15 +81,48 @@
         </div>
       </div>
     </div>
-    <div class="navbar" id="navbar">  </div>
-
-    <div class="info" id="info">
-      <div class="panel_1">
+    
+      <div class="info" id="info">
+        <div class="panel_1">
+          <div class="bild">
+            <img id= "aktiviteterbild" src="./bilder/hanatorp1" alt="" ></img>
+            <img src="./bilder/hanatorp2" alt=""></img>
+          </div>
         <div class="facts_p1">
-          <div><h3> Skriv o sätt in de som passar till den kategorin du arbetar med. Vi får fixa detta snabbt :P </h3></div>
+          <div class="text">
+            <h2> Aktiviteter </h2>
+              <p> Friluftslivet är det vi är mest stolta över.
+                  Fisket i sjöarna kring Örby och Kinna är gott och det finns ett 20 tal sjöar och vattendrag att välja på i närområdet.
+                  Runt Hanatorp i Örby finns det leder i vacker natur.
+              </p>
+              <p> Här möter du också Öresjöbygdens spännade kulturlandskap. Inte långt ifrån Hanatorp ligger fornborgen Öresten,
+                  där ”Kurirleden” börjar och i andra ändan av Östra Öresjön ligger magiska ”Seatons Kulle” - Hyltenäs kulle.
+                  Mindre än 5 km ifrån Hanatorp finns flera kulturreservat som är värda ett besök.
+              </p>
+              <p> Hanatorp är också ett utmärkt utgångsläge för västsvensk shopping.
+                  I Marks kommun finner du det unika Tygriket med 17 försäljningsställen.
+                  Räcker inte det så är det inte långt till GEKÅS Ullared (50 km), Gällstad outlet (60 km), 2 Karlsson (40 km) eller Knalleland Borås (35 km).
+                  Göteborg med alla sina sevärdheter och nöjesparken ”Liseberg” (55 km).
+              </p>
+              <br>
+              <p> Som årligt återkommande aktiviteter har vi: </p>
+              <p> Midsommarfirande där vi tillsammans klär midsommarstången och dansar traditionella lekar.
+                  Vi forsöker alltid få hit en trubadur som spelar under eftm./kväll.För midsommarhelgen gäller 200.- extra
+                  Sen Dragspelstämman som alltid är sista helgen i Augusti.
+                  Båda dessa arrangemang brukar numera innebära att det blir fullbokad camping.
+                  Så boka gärna i god tid.
+              </p>
+              <p> Marks golffklubb ligger bara 5 minuter med bil bort.
+                  Kom till sveriges mest centrala golfbanna med driving ranch, 9 och 18 håls bana.
+                  Passa också på att besöka restaurang Valla som erbjuder frukost, lunch och middag.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
-
   </body>
+  <footer>
+    <div class="footer" > Hej </div>
+    <div class="footerbar">  </div>
+  </footer>

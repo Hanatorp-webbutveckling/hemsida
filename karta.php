@@ -2,7 +2,7 @@
 <html lang="sv">
   <head>
     <meta charset="utf-8"/>
-    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="karta.css" rel="stylesheet" type="text/css">
     <title> Hanatorps Camping </title>
     <script>
     function menu(){
@@ -21,6 +21,7 @@
   </head>
   <header>
     <div class="header" id="header">
+      <div class="navbar" id="navbar">  </div>
       <h1> Hanatorps Camping </h1>
       <div class="nav" onclick="menu()">
         <div id="hamburger" class="button_menu">
@@ -80,15 +81,20 @@
         </div>
       </div>
     </div>
-    <div class="navbar" id="navbar">  </div>
 
     <div class="info" id="info">
       <div class="panel_1">
-        <div class="facts_p1">
-          <div><h3> Skriv o sätt in de som passar till den kategorin du arbetar med. Vi får fixa detta snabbt :P </h3></div>
+        <div class="bild">
+          <img src="./bilder/karta-zoom"></img>
+          <img src="./bilder/campingkarta1"></img>
+          <img src="./bilder/campingkarta2"></img>
+          <div class="facts_p1">
+          </div>
         </div>
       </div>
-
     </div>
-
   </body>
+  <footer>
+    <div class="footer" > Hej </div>
+    <div class="footerbar">  </div>
+  </footer>

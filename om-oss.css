@@ -154,7 +154,6 @@ header .header.change{
   height: 100%;
   z-index: -1;
 }
-
 .navbar.change{
   display:none;
 }
@@ -166,6 +165,7 @@ header .header.change{
   border-left: 1px solid black;
 }
 
+
 .info{
   margin-top: 3%;
   width: 100%;
@@ -175,6 +175,7 @@ header .header.change{
   flex-direction: column;
   align-items: center;
   flex: 1 2 auto;
+
 }
 
 .info.change{
@@ -193,8 +194,8 @@ header .header.change{
 
 .facts_p1{
   width: 80%;
-}
 
+}
 .text{
   width: 90%;
 }
