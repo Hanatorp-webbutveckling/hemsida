@@ -23,7 +23,7 @@
     <div class="header" id="header">
       <div class="navbar" id="navbar">  </div>
       <h1> Hanatorps Camping </h1>
-      <div class="nav" onclick="menu()">
+      <div class="nav" onclick="menu()"> Meny
         <div id="hamburger" class="button_menu">
           <div id="line1" class="line_1"></div>
           <div id="line2" class="line_2"></div>
@@ -102,7 +102,16 @@ Välkomna. </p>
 
   </body>
   <footer>
-    <div class="footer" > Hej </div>
+    <div class="footer" > <table>
+      <tbody>
+        <tr>
+          <td class="Kontakt">
+            Hanatorps camping;   Öresjövägen 26;   511 31 Örby;   Tel: +46 (0)703807048;   Kontakt:
+            <a href="mailto:camping@hanatorp.se" class="linklink">Hanatorp Camping</a>
+           </td>
+         </tr>
+       </tbody>
+     </table> </div>
     <div class="footerbar">  </div>
 
 
