@@ -43,6 +43,16 @@ header .nav{
 header .header.change{
   display: none;
 }
+
+.nav_row a{
+  color:black;
+  text-decoration:none;
+}
+
+.nav_row a:hover {
+  color:hotpink;
+}
+
 .button_menu{
   padding: 5px;
 }

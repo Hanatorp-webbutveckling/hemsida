@@ -23,7 +23,7 @@
     <div class="header" id="header">
       <div class="navbar" id="navbar">  </div>
       <h1> Hanatorps Camping </h1>
-      <div class="nav" onclick="menu()">
+      <div class="nav" onclick="menu()"> Meny 
         <div id="hamburger" class="button_menu">
           <div id="line1" class="line_1"></div>
           <div id="line2" class="line_2"></div>
@@ -34,7 +34,7 @@
   </header>
 
   <body>
-    <img id="bild" src="https://www.campstar.com/images/images/968eb519b117487297d0_e1ac7.jpg" alt="Background"></img>
+    <img id="bild" src="./Bilder/Camping_bakgrund" alt="Background"></img>
     <div id="menu_box" class="menu_box">
       <div class="nav_row">
         <div></div>
@@ -85,9 +85,9 @@
     <div class="info" id="info">
       <div class="panel_1">
         <div class="bild">
-          <img src="./bilder/karta-zoom"></img>
-          <img src="./bilder/campingkarta1"></img>
-          <img src="./bilder/campingkarta2"></img>
+          <img src="./Bilder/karta-zoom"></img>
+          <img src="./Bilder/campingkarta1"></img>
+          <img src="./Bilder/campingkarta2"></img>
           <div class="facts_p1">
           </div>
         </div>
@@ -95,6 +95,15 @@
     </div>
   </body>
   <footer>
-    <div class="footer" > Hej </div>
+    <div class="footer" >
+      <tbody>
+        <tr>
+          <td class="Kontakt">
+            Hanatorps camping;   Öresjövägen 26;   511 31 Örby;   Tel: +46 (0)703807048;   Kontakt:
+            <a href="mailto:camping@hanatorp.se" class="linklink">Hanatorp Camping</a>
+           </td>
+         </tr>
+       </tbody>
+      </div>
     <div class="footerbar">  </div>
   </footer>

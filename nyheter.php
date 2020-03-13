@@ -34,7 +34,7 @@
   </header>
 
   <body>
-    <img id="bild" src="https://www.campstar.com/images/images/968eb519b117487297d0_e1ac7.jpg" alt="Background"></img>
+    <img id="bild" src="./Bilder/Camping_bakgrund" alt="Background"></img>
     <div id="menu_box" class="menu_box">
       <div class="nav_row">
         <div></div>
@@ -86,23 +86,24 @@
     <div class="info" id="info">
       <div class="panel_1">
         <div class="bild">
-          <img src="./bilder/hanatorp2"> </img>
+          <img src="./Bilder/hanatorp2"> </img>
         </div>
         <div class="facts_p1">
           <div class="text">
             <h2> Nyheter </h2>
             <p> Vi på Hanatorp Camping tackar för en jättefin säsong 2018.
-2019 öppnar vi återigen till påsk (skärtorsdagen) och håller öppet till den 30:e september.
+              2019 öppnar vi återigen till påsk (skärtorsdagen) och håller öppet till den 30:e september.
 
-Välkomna. </p>
+              Välkomna. </p>
+          </div>
         </div>
       </div>
-    </div>
     </div>
 
   </body>
   <footer>
-    <div class="footer" > <table>
+    <div class="footer" >
+      <table>
       <tbody>
         <tr>
           <td class="Kontakt">

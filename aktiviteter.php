@@ -34,7 +34,7 @@
   </header>
 
   <body>
-    <img id="bild" src="https://www.campstar.com/images/images/968eb519b117487297d0_e1ac7.jpg" alt="Background"></img>
+    <img id="bild" src="./Bilder/Camping_bakgrund" alt="Background"></img>
     <div id="menu_box" class="menu_box">
       <div class="nav_row">
         <div></div>
@@ -85,8 +85,8 @@
       <div class="info" id="info">
         <div class="panel_1">
           <div class="bild">
-            <img id= "aktiviteterbild" src="./bilder/hanatorp1" alt="" ></img>
-            <img src="./bilder/hanatorp2" alt=""></img>
+            <img id= "aktiviteterbild" src="./Bilder/hanatorp1" alt="" ></img>
+            <img src="./Bilder/hanatorp2" alt=""></img>
           </div>
         <div class="facts_p1">
           <div class="text">

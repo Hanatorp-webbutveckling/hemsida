@@ -53,6 +53,10 @@ header .header.change{
   color:hotpink;
 }
 
+.button_menu{
+  padding: 5px;
+}
+
 .line_1, .line_2, .line_3 {
   width: 35px;
   height: 5px;

@@ -33,7 +33,7 @@
   </header>
 
   <body>
-    <img id="bild" src="https://www.campstar.com/images/images/968eb519b117487297d0_e1ac7.jpg" alt="Background"></img>
+    <img id="bild" src="./Bilder/Camping_bakgrund" alt="Background"></img>
     <div id="menu_box" class="menu_box">
       <div class="nav_row">
         <div></div>
@@ -94,9 +94,9 @@
           </div>
         </div>
         <div class="bild">
-          <img id="Badbild1" src=./BilderHanatorp/Bad/th_BadBild1.png alt=""> </img>
-          <img id="Badbild2" src=./BilderHanatorp/Bad/th_BadBild2.png alt=""> </img>
-          <img id="Badbild3" src=./BilderHanatorp/Bad/th_BadBild3.png alt=""> </img>
+          <img id="Badbild1" src=./Bilder/th_BadBild1.png alt=""> </img>
+          <img id="Badbild2" src=./Bilder/th_BadBild2.png alt=""> </img>
+          <img id="Badbild3" src=./Bilder/th_BadBild3.png alt=""> </img>
         </div>
       </div>
     </div>
